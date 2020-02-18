@@ -1,7 +1,12 @@
 teamgrit내에서 janus project를 자유롭게 수정하고 테스트 해볼 수 있는 fork입니다
 자세한 메뉴얼은 아래 링크 참고
 
-https://blog.remotemonster.com/janus-%EC%B4%88%EC%95%88-c11db5b59e26
+링크 : https://blog.remotemonster.com/janus-%EC%B4%88%EC%95%88-c11db5b59e26
+
+변경사항
+1. janus.sh
+원본 : git clone https://github.com/meetecho/janus-gateway.git
+수정 : git clone https://github.com/teamgrit-lab/janus-gateway
 
 
 
