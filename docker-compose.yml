@@ -1,0 +1,22 @@
+version: '3'
+services:
+  mcu: 
+    #image: "agilertc/agile-mcu:0.0.2"
+    image: "agilertc/janus:v1.0.0"
+    # environment: 
+    #   - ARTC_APP_TYPE=turn
+    volumes:
+      - ./log:/var/log
+      - /tmp/records/:/tmp/   
+    restart: always
+    #network_mode: host 
+    ports:
+      - 8088:8088 
+      - 8188:8188     
+      - 8000:8000 
+      - 8089:8080
+      - 7088:7088
+      #- 10000:10000/udp
+      #- 10001:10001/udp
+      #- 10002:10002/udp
+      #- 10003:10003/udp
