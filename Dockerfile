@@ -25,7 +25,7 @@ RUN ./apache.sh
 # Clone, build and install the gateway
 RUN ./janus.sh
 # Put configs in place
-COPY conf/*.cfg /opt/janus/etc/janus/
+# COPY conf/*.cfg /opt/janus/etc/janus/
 
 # Declare the ports we use
 EXPOSE 80 7088 8088 8188

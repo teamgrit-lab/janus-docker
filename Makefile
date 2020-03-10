@@ -1,5 +1,5 @@
 
-TEMPLATE_NAME ?= agilertc/agile-mcu:1.0.0
+TEMPLATE_NAME ?= agilertc/agile-mcu:1.0.11
 PORTS = -p 0.0.0.0:8088:8088 -p 0.0.0.0:8188:8188
 VOLUMES = -v scripts:/tmp/scripts
 ENV = 
